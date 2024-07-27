@@ -7,7 +7,7 @@ const bodyParser = require("body-parser");
 app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
-  res.send("Welcome to our Resturentgigi");
+  res.send("Welcome to our Restaurant 🍕");
 });
 
 // import person route
